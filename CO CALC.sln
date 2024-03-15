@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CO CALC", "CO CALC\", "{B0D6741A-6DDD-4AC0-8EC2-6F724459E9E1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57998"
+		Debug.AspNetCompiler.PhysicalPath = "CO CALC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57998\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57998"
+		Release.AspNetCompiler.PhysicalPath = "CO CALC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57998\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57998"
+		SlnRelativePath = "CO CALC\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D6741A-6DDD-4AC0-8EC2-6F724459E9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D6741A-6DDD-4AC0-8EC2-6F724459E9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45976EA8-E0AE-496E-B1A3-D7D4BF9EA6E2}
+	EndGlobalSection
+EndGlobal

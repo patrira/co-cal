@@ -1,0 +1,43 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="calculator.aspx.cs" Inherits="calculator" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Carbon Footprint Calculator</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Carbon Footprint Calculator</h1>
+            
+            <h2>Electricity Consumption</h2>
+            <label for="txtElectricity">Enter Monthly Electricity Consumption (in kWh):</label>
+            <asp:TextBox ID="txtElectricity" runat="server"></asp:TextBox>
+            <br />
+
+            <h2>Energy Consumption</h2>
+            <label for="txtEnergy">Enter Monthly Energy Consumption (in MJ):</label>
+            <asp:TextBox ID="txtEnergy" runat="server"></asp:TextBox>
+            <br />
+
+            <h2>Waste Generation</h2>
+            <label for="txtWaste">Enter Annual Waste Generation (in kg):</label>
+            <asp:TextBox ID="txtWaste" runat="server"></asp:TextBox>
+            <br />
+
+            <h2>Transportation</h2>
+            <label for="txtMileage">Enter Annual Mileage (in miles):</label>
+            <asp:TextBox ID="txtMileage" runat="server"></asp:TextBox>
+            <br />
+            <br />
+
+            <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
+            <br />
+            <br />
+
+            <asp:Label ID="lblResult" runat="server" EnableViewState="false"></asp:Label>
+        </div>
+    </form>
+</body>
+</html>
